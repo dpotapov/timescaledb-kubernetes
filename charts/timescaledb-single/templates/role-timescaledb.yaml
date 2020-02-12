@@ -30,7 +30,6 @@ rules:
 - apiGroups: [""]
   resources:
   - endpoints
-  - endpoints/restricted
   verbs:
   - create
   - get
